@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".GameFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/cell25"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@android:color/white"
+            android:onClick="switchColor"
+            app:layout_constraintStart_toEndOf="@+id/cell24"
+            app:layout_constraintTop_toBottomOf="@+id/cell20" />
+
+        <TextView
+            android:id="@+id/cell20"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@android:color/white"
+            android:onClick="switchColor"
+            app:layout_constraintStart_toEndOf="@+id/cell19"
+            app:layout_constraintTop_toBottomOf="@+id/cell15" />
+
+        <TextView
+            android:id="@+id/cell5"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@android:color/white"
+            android:onClick="switchColor"
+            app:layout_constraintBottom_toTopOf="@+id/cell10"
+            app:layout_constraintStart_toEndOf="@+id/cell4" />
+
+        <TextView
+            android:id="@+id/cell10"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@android:color/white"
+            android:onClick="switchColor"
+            app:layout_constraintBottom_toTopOf="@+id/cell15"
+            app:layout_constraintStart_toEndOf="@+id/cell9" />
+
+        <TextView
+            android:id="@+id/cell15"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@android:color/white"
+            android:onClick="switchColor"
+            app:layout_constraintStart_toEndOf="@+id/cell14"
+            app:layout_constraintTop_toTopOf="@+id/cell14" />
+
+        <TextView
+            android:id="@+id/cell21"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@android:color/white"
+            android:onClick="switchColor"
+            app:layout_constraintEnd_toStartOf="@+id/cell22"
+            app:layout_constraintTop_toBottomOf="@+id/cell16" />
+
+        <TextView
+            android:id="@+id/cell16"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@android:color/white"
+            android:onClick="switchColor"
+            app:layout_constraintEnd_toStartOf="@+id/cell17"
+            app:layout_constraintTop_toBottomOf="@+id/cell11" />
+
+        <TextView
+            android:id="@+id/cell1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@android:color/white"
+            android:onClick="switchColor"
+            app:layout_constraintBottom_toTopOf="@+id/cell6"
+            app:layout_constraintEnd_toStartOf="@+id/cell2" />
+
+        <TextView
+            android:id="@+id/cell6"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@android:color/white"
+            android:onClick="switchColor"
+            app:layout_constraintBottom_toTopOf="@+id/cell11"
+            app:layout_constraintEnd_toStartOf="@+id/cell7" />
+
+        <TextView
+            android:id="@+id/cell11"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@android:color/white"
+            android:onClick="switchColor"
+            app:layout_constraintEnd_toStartOf="@+id/cell12"
+            app:layout_constraintTop_toBottomOf="@+id/cell7" />
+
+        <TextView
+            android:id="@+id/cell2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@android:color/white"
+            android:onClick="switchColor"
+            app:layout_constraintBottom_toTopOf="@+id/cell7"
+            app:layout_constraintEnd_toStartOf="@+id/cell3" />
+
+        <TextView
+            android:id="@+id/cell22"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@android:color/white"
+            android:onClick="switchColor"
+            app:layout_constraintEnd_toStartOf="@+id/cell23"
+            app:layout_constraintTop_toBottomOf="@+id/cell17" />
+
+        <TextView
+            android:id="@+id/cell17"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@android:color/white"
+            android:onClick="switchColor"
+            app:layout_constraintEnd_toStartOf="@+id/cell18"
+            app:layout_constraintTop_toBottomOf="@+id/cell12" />
+
+        <TextView
+            android:id="@+id/cell7"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@android:color/white"
+            android:onClick="switchColor"
+            app:layout_constraintBottom_toTopOf="@+id/cell12"
+            app:layout_constraintEnd_toStartOf="@+id/cell8" />
+
+        <TextView
+            android:id="@+id/cell23"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@android:color/white"
+            android:onClick="switchColor"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cell18" />
+
+
+        <TextView
+            android:id="@+id/cell13"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@android:color/white"
+            android:onClick="switchColor"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.36" />
+
+        <TextView
+            android:id="@+id/cell8"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@android:color/white"
+            android:onClick="switchColor"
+            app:layout_constraintBottom_toTopOf="@+id/cell13"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/cell3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@android:color/white"
+            android:onClick="switchColor"
+            app:layout_constraintBottom_toTopOf="@+id/cell8"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/cell18"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@android:color/white"
+            android:onClick="switchColor"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cell13" />
+
+        <TextView
+            android:id="@+id/cell14"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@android:color/white"
+            android:onClick="switchColor"
+            app:layout_constraintStart_toEndOf="@+id/cell13"
+            app:layout_constraintTop_toTopOf="@+id/cell13" />
+
+        <TextView
+            android:id="@+id/cell19"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@android:color/white"
+            android:onClick="switchColor"
+            app:layout_constraintStart_toEndOf="@+id/cell18"
+            app:layout_constraintTop_toBottomOf="@+id/cell14" />
+
+        <TextView
+            android:id="@+id/cell9"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@android:color/white"
+            android:onClick="switchColor"
+            app:layout_constraintBottom_toTopOf="@+id/cell14"
+            app:layout_constraintStart_toEndOf="@+id/cell8" />
+
+        <TextView
+            android:id="@+id/cell4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@android:color/white"
+            android:onClick="switchColor"
+            app:layout_constraintBottom_toTopOf="@+id/cell9"
+            app:layout_constraintStart_toEndOf="@+id/cell3" />
+
+        <TextView
+            android:id="@+id/cell24"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@android:color/white"
+            android:onClick="switchColor"
+            app:layout_constraintStart_toEndOf="@+id/cell23"
+            app:layout_constraintTop_toBottomOf="@+id/cell19" />
+
+        <TextView
+            android:id="@+id/cell12"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@android:color/white"
+            android:onClick="switchColor"
+            app:layout_constraintEnd_toStartOf="@+id/cell13"
+            app:layout_constraintTop_toTopOf="@+id/cell13" />
+
+        <TextView
+            android:id="@+id/name_view"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="name"
+            android:textAlignment="center"
+            android:textSize="32sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <Button
+            android:id="@+id/reset_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:onClick="clearColors"
+            android:text="@string/reset"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="OnClick" />
+
+        <TextView
+            android:id="@+id/moves"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:text="@string/moves"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toTopOf="@+id/reset_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.32"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/movecount"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:text="@string/_0"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.07"
+            app:layout_constraintStart_toEndOf="@+id/moves"
+            app:layout_constraintTop_toTopOf="@+id/moves" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

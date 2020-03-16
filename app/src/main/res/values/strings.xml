@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">alcantara_exer5_LightsOutv2</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="enter_your_name">Enter your name</string>
+    <string name="enter">ENTER</string>
+    <string name="_0">0</string>
+    <string name="moves">MOVES:</string>
+    <string name="reset">RESET</string>
+    <string name="bigyan_ng_jacket">You have won the game!</string>
+    <string name="restart">RESTART</string>
+
+</resources>
